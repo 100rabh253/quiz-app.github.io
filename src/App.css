@@ -1,0 +1,86 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.Menu-container,
+.Quiz,
+.endscreen {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: rgb(15, 214, 64);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.Menu-container button,
+.endscreen button,
+.Quiz button {
+  height: 3.5rem;
+  width: 8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: cursive;
+  font-weight: bold;
+}
+.Menu-container button:hover,
+.endscreen button:hover,
+.Quiz button:hover {
+  background-color: rgb(2, 68, 11);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+label {
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: bold;
+}
+input {
+  width: 190px;
+  height: 35px;
+  border-radius: 0.5rem;
+}
+
+.Quiz h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-left: 6%;
+  padding-top: 2%;
+}
+.options button {
+  height: 4rem;
+  width: 20rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: cursive;
+  font-weight: bold;
+  /* align-content: center; */
+}
+.options button:hover {
+  background-color: rgb(235, 118, 8);
+  color: white;
+  cursor: pointer;
+}
+.options {
+  padding-left: 18.5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.endscreen h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.restart-button {
+  padding-top: 20%;
+}
